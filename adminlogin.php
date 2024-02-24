@@ -42,22 +42,23 @@ echo "<script>alert('Invalid Details');</script>";
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 
 </head>
-<body>
+<body style="background-color: lightblue; padding: 20px; border-radius: 5px;">
     <!------MENU SECTION START-->
 <?php include('includes/header.php');?>
 <!-- MENU SECTION END-->
 <div class="content-wrapper">
-<div class="container">
-<div class="row pad-botm">
-<div class="col-md-12">
-<h4 class="header-line">ADMIN LOGIN FORM</h4>
-</div>
-</div>
+    <div class="container">
+        <div class="row pad-botm">
+            <div class="col-md-12 text-center">
+                <h4 class="header-line" style="font-family: Arial, sans-serif;">ADMIN LOGIN FORM</h4>
+            </div>
+        </div>
+
              
 <!--LOGIN PANEL START-->           
 <div class="row">
-<div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3" >
-<div class="panel panel-info">
+<div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
+<div class="panel panel-info" style="background-color: silver; padding: 20px; border-radius: 5px;">
 <div class="panel-heading">
  LOGIN FORM
 </div>

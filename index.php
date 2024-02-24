@@ -57,52 +57,37 @@ echo "<script>alert('Invalid Details');</script>";
     <link href='http://fonts.googleapis.com/css?family=Open+Sans' rel='stylesheet' type='text/css' />
 
 </head>
-<body>
+<body style="background-color: lightblue;">
     <!------MENU SECTION START-->
-<?php include('includes/header.php');?>
-<!-- MENU SECTION END-->
+    <?php include('includes/header.php');?>
+    <!-- MENU SECTION END-->
 
-<!--LOGIN PANEL START-->           
-<div class="row">
-<div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3" >
-<div class="panel panel-info">
-<div class="panel-heading">
- LOGIN FORM
-</div>
-<div class="panel-body">
-<form role="form" method="post">
+    <!--LOGIN PANEL START-->           
+    <div class="row" style="background-color: lightblue; padding: 20px; border-radius: 5px;">
+        <div class="col-md-6 col-sm-6 col-xs-12 col-md-offset-3">
+            <div class="panel panel-info" style="background-color: silver; padding: 20px; border-radius: 5px;">
+                <div class="panel-heading">
+                    LOGIN FORM
+                </div>
+                <div class="panel-body">
+                    <form role="form" method="post">
 
-<div class="form-group">
-<label>Enter Email id</label>
-<input class="form-control" type="text" name="emailid" required autocomplete="off" />
-</div>
-<div class="form-group">
-<label>Password</label>
-<input class="form-control" type="password" name="password" required autocomplete="off"  />
-<p class="help-block"><a href="user-forgot-password.php">Forgot Password</a></p>
-</div>
+                        <div class="form-group">
+                            <label>Enter Email id</label>
+                            <input class="form-control" type="text" name="emailid" required autocomplete="off" />
+                        </div>
+                        <div class="form-group">
+                            <label>Password</label>
+                            <input class="form-control" type="password" name="password" required autocomplete="off"  />
+                            <p class="help-block"><a href="user-forgot-password.php">Forgot Password</a></p>
+                        </div>
 
-
-
- <button type="submit" name="login" class="btn btn-info">LOGIN </button> | <a href="signup.php">Not Register Yet</a>
-</form>
- </div>
-</div>
-</div>
-</div>  
-<!---LOGIN PABNEL END-->            
-             
- 
-    </div>
-    </div>
-     <!-- CONTENT-WRAPPER SECTION END-->
- <?php include('includes/footer.php');?>
-      <!-- FOOTER SECTION END-->
-    <script src="assets/js/jquery-1.10.2.js"></script>
-    <!-- BOOTSTRAP SCRIPTS  -->
-    <script src="assets/js/bootstrap.js"></script>
-      <!-- CUSTOM SCRIPTS  -->
-    <script src="assets/js/custom.js"></script>
+                        <button type="submit" name="login" class="btn btn-info">LOGIN </button> | <a href="signup.php">Not Register Yet</a>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>  
+    <!---LOGIN PANEL END-->            
 
 </body>
-</html>

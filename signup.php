@@ -88,7 +88,7 @@ error:function (){}
 </script>    
 
 </head>
-<body>
+<body style="background-color: lightblue; padding: 20px; border-radius: 5px;">
     <!------MENU SECTION START-->
 <?php include('includes/header.php');?>
 <!-- MENU SECTION END-->
@@ -104,7 +104,7 @@ error:function (){}
              <div class="row">
            
 <div class="col-md-9 col-md-offset-1">
-               <div class="panel panel-danger">
+               <div class="panel panel-danger" style="background-color: silver; padding: 20px; border-radius: 5px;">
                         <div class="panel-heading">
                            SINGUP FORM
                         </div>

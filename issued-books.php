@@ -18,7 +18,7 @@ else{
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <meta name="description" content="" />
     <meta name="author" content="" />
-    <title>Online Library Management System |  Issued Books</title>
+    <title>Online Library Borrowing and Returning System |  Issued Books</title>
     <!-- BOOTSTRAP CORE STYLE  -->
     <link href="assets/css/bootstrap.css" rel="stylesheet" />
     <!-- FONT AWESOME STYLE  -->
@@ -60,7 +60,7 @@ else{
                                             <th>ISBN </th>
                                             <th>Issued Date</th>
                                             <th>Return Date</th>
-                                            <th>Fine in(USD)</th>
+                                            <th>Fine in(N)</th>
                                         </tr>
                                     </thead>
                                     <tbody>
